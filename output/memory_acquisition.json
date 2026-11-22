@@ -1,0 +1,21 @@
+{
+    "artifact_type": "Physical Memory Dump",
+    "evidence_file": "C:\\Users\\nourr\\Downloads\\DEPI PROJECT\\DEPI PROJECT\\evidence\\memory\\memdump.mem",
+    "file_name": "memdump.mem",
+    "file_size_bytes": 9633267712,
+    "sha256": "390182a6d2e308df435f84905a4732bcdbd0ef1d31ed9e1fffe805757a6571d6",
+    "operating_system": "Windows-11-10.0.26300-SP0",
+    "acquisition_tool": "Exterro FTK Imager 8.3.0.27",
+    "acquisition_method": "FTK Imager - Capture Memory",
+    "source_tool": "Exterro FTK Imager",
+    "collection_tool": "Python hashlib",
+    "verification_timestamp_utc": "2026-11-21T18:10:36.054658+00:00",
+    "acquisition_timestamp_utc": null,
+    "file_last_modified": "2026-11-21T17:31:25.241896+00:00",
+    "limitations": [
+        "The memory dump was acquired separately using FTK Imager.",
+        "This module verifies and documents the existing dump.",
+        "The dump may contain sensitive information.",
+        "A hash verifies file integrity after acquisition, but does not independently prove acquisition authenticity."
+    ]
+}
