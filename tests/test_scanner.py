@@ -18,7 +18,6 @@ class TestYaraScanner(unittest.TestCase):
 
         self.scanner = YaraScanner(rules_dir)
         self.scanner.load_rules()
-        self.sample_file = sample_file
 
     def test_positive_sample_detection(self):
         result = self.scanner.scan_file(self.positive_sample)
