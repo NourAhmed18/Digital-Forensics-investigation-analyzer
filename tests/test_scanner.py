@@ -1,9 +1,13 @@
-
 import unittest
+import sys
 from pathlib import Path
 
-from yara.scanner import YaraScanner
+sys.path.insert(
+    0,
+    str(Path(__file__).resolve().parents[1])
+)
 
+from scanner import YaraScanner
 
 class TestYaraScanner(unittest.TestCase):
 
