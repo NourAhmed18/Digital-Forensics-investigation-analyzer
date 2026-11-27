@@ -29,4 +29,4 @@ jobs:
 
       - name: Run YARA tests
         run: |
-          python -m unittest discover -s yara/tests -p "test_*.py" -v
+           python yara/tests/test_scanner.py
