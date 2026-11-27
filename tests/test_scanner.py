@@ -1,23 +1,23 @@
+
 import unittest
 import sys
 from pathlib import Path
 
-sys.path.insert(
-    0,
-    str(Path(__file__).resolve().parents[1])
-)
+BASE_DIR = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(BASE_DIR))
 
-from scanner import YaraScanner
+from yara_engine.scanner import YaraScanner
+
 
 class TestYaraScanner(unittest.TestCase):
 
     def setUp(self):
-        self.base_dir = Path(__file__).resolve().parents[1]
-        self.rules_dir = self.base_dir / "rules"
-        self.sample_file = Path(__file__).parent / "positive_sample.txt"
+        rules_dir = BASE_DIR / "yara_engine" / "rules"
+        sample_file = Path(__file__).parent / "positive_sample.txt"
 
-        self.scanner = YaraScanner(self.rules_dir)
+        self.scanner = YaraScanner(rules_dir)
         self.scanner.load_rules()
+        self.sample_file = sample_file
 
     def test_positive_sample_detection(self):
         result = self.scanner.scan_file(self.sample_file)
