@@ -1,0 +1,12 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local database and generated output
+output/
+
+# Pytest cache
+.pytest_cache/
