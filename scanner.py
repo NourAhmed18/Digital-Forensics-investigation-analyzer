@@ -1,23 +1,28 @@
+
 import yara
-import os
 from pathlib import Path
 
 
 class YaraScanner:
-    def __init__(self, rules_path="yara/rules"):
+    def __init__(self, rules_path=None):
+        if rules_path is None:
+            rules_path = Path(__file__).parent / "rules"
+
         self.rules_path = Path(rules_path)
         self.rules = None
 
     def load_rules(self):
-        """Load all YARA rules from the rules directory."""
+        """Load YARA rules from the rules directory."""
 
-        if not self.rules_path.exists():
+        if not self.rules_path.is_dir():
             raise FileNotFoundError(
                 f"Rules directory not found: {self.rules_path}"
             )
 
-        rule_files = list(self.rules_path.glob("*.yar"))
-        rule_files += list(self.rules_path.glob("*.yara"))
+        rule_files = sorted(
+            list(self.rules_path.glob("*.yar")) +
+            list(self.rules_path.glob("*.yara"))
+        )
 
         if not rule_files:
             raise FileNotFoundError("No YARA rule files found.")
@@ -40,7 +45,9 @@ class YaraScanner:
         file_path = Path(file_path)
 
         if not file_path.is_file():
-            raise FileNotFoundError(f"File not found: {file_path}")
+            raise FileNotFoundError(
+                f"File not found: {file_path}"
+            )
 
         matches = self.rules.match(str(file_path))
 
@@ -56,3 +63,4 @@ class YaraScanner:
             ],
             "is_suspicious": bool(matches)
         }
+
