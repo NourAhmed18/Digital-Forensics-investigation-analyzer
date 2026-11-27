@@ -1,0 +1,7 @@
+Tool: Exterro FTK Imager 8.3.0.27
+Operating System: Windows 11
+Acquisition Method: FTK Imager - Capture Memory
+Evidence File: C:\Users\nourr\Downloads\DEPI PROJECT\DEPI PROJECT\evidence\memory\memdump.mem
+File Size (Bytes): 9633267712
+Acquisition File Last Modified: 11/21/2026 19:31:25
+SHA-256: 390182A6D2E308DF435F84905A4732BCDBD0EF1D31ED9E1FFFE805757A6571D6
