@@ -1,3 +1,4 @@
+
 # YARA Engine
 
 ## Overview
@@ -6,8 +7,9 @@ The YARA Engine is a component of the Digital Forensics Investigation Analyzer p
 ## Features
 - Loads YARA rules from the rules directory.
 - Scans files for suspicious patterns.
-- Reports matched rule names.
-- Returns whether a file is suspicious.
+- Reports matched rule names, tags, and metadata.
+- Indicates whether a file is suspicious.
+- Saves scan results as JSON.
 
 ## Project Structure
 ```text
@@ -17,16 +19,27 @@ yara_engine/
 ├── __init__.py
 └── rules/
     └── test_rule.yar
+```
 
-Install the required dependencies:
+## Requirements
+From the repository root, install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
+## Running Tests
+Run the following command from the repository root:
 
-From the project root directory, run:
+```bash
 python tests/test_scanner.py
+```
 
+The tests verify:
+- Positive sample detection.
+- Negative sample produces no matches.
 
-- positive_sample.txt: Contains a test marker expected to trigger the YARA rule.
-- negative_sample.txt: Contains harmless text and should produce no matches.
-Output
-The scanner reports matching YARA rules and indicates whether the scanned file is suspicious.
+## Output
+The scanner returns the file path, matched rules, tags, metadata, and an is_suspicious boolean.
+
+The output helper saves scan results in JSON format.
