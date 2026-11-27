@@ -1,0 +1,3 @@
+This is a normal and harmless text file.
+No suspicious markers are included.
+This file is used to test false positive detection.
