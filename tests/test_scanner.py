@@ -13,14 +13,14 @@ class TestYaraScanner(unittest.TestCase):
 
     def setUp(self):
         rules_dir = BASE_DIR / "yara_engine" / "rules"
-        sample_file = Path(__file__).parent / "positive_sample.txt"
+        self.positive_sample = Path(__file__).parent / "positive_sample.txt"
+        self.negative_sample = Path(__file__).parent / "negative_sample.txt"
 
         self.scanner = YaraScanner(rules_dir)
         self.scanner.load_rules()
-        self.sample_file = sample_file
 
     def test_positive_sample_detection(self):
-        result = self.scanner.scan_file(self.sample_file)
+        result = self.scanner.scan_file(self.positive_sample)
 
         self.assertTrue(result["is_suspicious"])
         self.assertTrue(
@@ -29,6 +29,12 @@ class TestYaraScanner(unittest.TestCase):
                 for match in result["matches"]
             )
         )
+
+    def test_negative_sample_no_detection(self):
+        result = self.scanner.scan_file(self.negative_sample)
+
+        self.assertFalse(result["is_suspicious"])
+        self.assertEqual(len(result["matches"]), 0)
 
 
 if __name__ == "__main__":

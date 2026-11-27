@@ -1,7 +1,0 @@
-{
-  "schema_version": "1.0",
-  "enabled_modules": [
-    "host_info"
-  ],
-  "notes": "Only collect from endpoints for which you have explicit authorization. Future modules can be enabled after integration."
-}
