@@ -4,6 +4,7 @@ name: YARA Engine Tests
 on:
   push:
     branches:
+      - integration
       - feature/yara
   pull_request:
     branches:
