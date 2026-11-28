@@ -1,0 +1,2 @@
+This is a safe Digital Forensics test sample.
+DIGITAL_FORENSICS_TEST_MARKER

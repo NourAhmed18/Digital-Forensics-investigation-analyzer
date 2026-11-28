@@ -1,5 +1,7 @@
 # Python virtual environment
 .venv/
+venv/
+.env
 
 # Python cache
 __pycache__/
@@ -7,6 +9,10 @@ __pycache__/
 
 # Local database and generated output
 output/
+test_output/
+*.sqlite
+*.sqlite3
+*.db
 
 # Pytest cache
 .pytest_cache/
