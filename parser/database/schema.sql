@@ -129,4 +129,30 @@ CREATE TABLE "System_Event" (
     FOREIGN KEY ("artifactID")
         REFERENCES "Artifact"("artifactID")
 );
+
+CREATE TABLE "Persistence_Artifact" (
+    "artifactID" INTEGER NOT NULL,
+    "persistence_type" TEXT NOT NULL,
+
+    "hive" TEXT,
+    "registry_path" TEXT,
+    "registry_view" TEXT,
+    "entry_name" TEXT,
+    "entry_value" TEXT,
+    "value_type" INTEGER,
+
+    "scope" TEXT,
+    "startup_folder" TEXT,
+    "startup_path" TEXT,
+    "startup_name" TEXT,
+    "is_directory" INTEGER,
+    "classification" TEXT,
+    "size_bytes" INTEGER,
+    "modified_at_utc" TEXT,
+
+    PRIMARY KEY ("artifactID"),
+
+    FOREIGN KEY ("artifactID")
+        REFERENCES "Artifact"("artifactID")
+);
 COMMIT;

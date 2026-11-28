@@ -1,0 +1,298 @@
+﻿{
+  "artifact_type": "persistence_artifacts",
+  "source_tool": "Python 3.14.10 standard library",
+  "command": "py -m volatile_memory.persistence",
+  "collected_at_utc": "2026-11-21T18:10:20.086816+00:00",
+  "completed_at_utc": "2026-11-21T18:10:20.092181+00:00",
+  "registry_entry_count": 27,
+  "startup_item_count": 3,
+  "registry_entries": [
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "64-bit",
+      "entry_name": "OneDrive",
+      "entry_value": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087438+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "64-bit",
+      "entry_name": "Discord",
+      "entry_value": "\"C:\\Users\\nourr\\AppData\\Local\\Discord\\Discord.exe\" --processStart Discord.exe --process-start-args \"--start-inactive\"",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087761+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "64-bit",
+      "entry_name": "Steam",
+      "entry_value": "\"C:\\Program Files (x86)\\Steam\\steam.exe\" -silent",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087775+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "64-bit",
+      "entry_name": "BraveSoftware Update",
+      "entry_value": "\"C:\\Users\\nourr\\AppData\\Local\\BraveSoftware\\Update\\1.3.361.151\\BraveUpdateCore.exe\"",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087783+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "64-bit",
+      "entry_name": "Mozilla-Firefox-308046B0AF4A39CB",
+      "entry_value": "\"C:\\Program Files\\Mozilla Firefox\\firefox.exe\" -os-autostart",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087790+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "64-bit",
+      "entry_name": "Teams",
+      "entry_value": "\"C:\\Users\\nourr\\AppData\\Local\\Microsoft\\WindowsApps\\MSTeams_8wekyb3d8bbwe\\ms-teams.exe\" msteams:system-initiated",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087798+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "64-bit",
+      "entry_name": "Microsoft.Lists",
+      "entry_value": "C:\\Program Files\\Microsoft OneDrive\\26.204.1019.0007\\OneDrive.Sync.Service.exe",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087805+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "64-bit",
+      "entry_name": "EADM",
+      "entry_value": "\"C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe\" -silentOs",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087812+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "64-bit",
+      "entry_name": "ScreenPal Tray",
+      "entry_value": "C:\\Users\\nourr\\AppData\\Local\\ScreenPal\\NoSplashScreen\\ScreenPal.exe tray",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087824+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "64-bit",
+      "entry_name": "com.overwolf.curseforge",
+      "entry_value": "\"C:\\Users\\nourr\\AppData\\Local\\Programs\\CurseForge Windows\\CurseForge.exe\" --minimized",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087832+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "32-bit",
+      "entry_name": "OneDrive",
+      "entry_value": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087902+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "32-bit",
+      "entry_name": "Discord",
+      "entry_value": "\"C:\\Users\\nourr\\AppData\\Local\\Discord\\Discord.exe\" --processStart Discord.exe --process-start-args \"--start-inactive\"",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087910+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "32-bit",
+      "entry_name": "Steam",
+      "entry_value": "\"C:\\Program Files (x86)\\Steam\\steam.exe\" -silent",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087917+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "32-bit",
+      "entry_name": "BraveSoftware Update",
+      "entry_value": "\"C:\\Users\\nourr\\AppData\\Local\\BraveSoftware\\Update\\1.3.361.151\\BraveUpdateCore.exe\"",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087925+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "32-bit",
+      "entry_name": "Mozilla-Firefox-308046B0AF4A39CB",
+      "entry_value": "\"C:\\Program Files\\Mozilla Firefox\\firefox.exe\" -os-autostart",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087932+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "32-bit",
+      "entry_name": "Teams",
+      "entry_value": "\"C:\\Users\\nourr\\AppData\\Local\\Microsoft\\WindowsApps\\MSTeams_8wekyb3d8bbwe\\ms-teams.exe\" msteams:system-initiated",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087939+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "32-bit",
+      "entry_name": "Microsoft.Lists",
+      "entry_value": "C:\\Program Files\\Microsoft OneDrive\\26.204.1019.0007\\OneDrive.Sync.Service.exe",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087946+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "32-bit",
+      "entry_name": "EADM",
+      "entry_value": "\"C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe\" -silentOs",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087953+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "32-bit",
+      "entry_name": "ScreenPal Tray",
+      "entry_value": "C:\\Users\\nourr\\AppData\\Local\\ScreenPal\\NoSplashScreen\\ScreenPal.exe tray",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087960+00:00"
+    },
+    {
+      "hive": "HKCU",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "32-bit",
+      "entry_name": "com.overwolf.curseforge",
+      "entry_value": "\"C:\\Users\\nourr\\AppData\\Local\\Programs\\CurseForge Windows\\CurseForge.exe\" --minimized",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.087967+00:00"
+    },
+    {
+      "hive": "HKLM",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "64-bit",
+      "entry_name": "SecurityHealth",
+      "entry_value": "%windir%\\system32\\SecurityHealthSystray.exe",
+      "value_type": 2,
+      "collected_at_utc": "2026-11-21T18:10:20.088083+00:00"
+    },
+    {
+      "hive": "HKLM",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "registry_view": "64-bit",
+      "entry_name": "RtkAudUService",
+      "entry_value": "\"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_9366beb5d0043df3\\RtkAudUService64.exe\" -background",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.088095+00:00"
+    },
+    {
+      "hive": "HKLM",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+      "registry_view": "64-bit",
+      "entry_name": "Delete Cached Update Binary",
+      "entry_value": "C:\\WINDOWS\\system32\\cmd.exe /q /c del /q \"C:\\Program Files\\Microsoft OneDrive\\Update\\OneDriveSetup.exe\"",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.088453+00:00"
+    },
+    {
+      "hive": "HKLM",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+      "registry_view": "64-bit",
+      "entry_name": "Delete Cached Standalone Update Binary",
+      "entry_value": "C:\\WINDOWS\\system32\\cmd.exe /q /c del /q \"C:\\Program Files\\Microsoft OneDrive\\StandaloneUpdater\\OneDriveSetup.exe\"",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.088792+00:00"
+    },
+    {
+      "hive": "HKLM",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+      "registry_view": "64-bit",
+      "entry_name": "msedge_cleanup_{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}",
+      "entry_value": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\158.0.4370.33\\Installer\\setup.exe\" --msedge --channel=stable --delete-old-versions --system-level --verbose-logging --on-logon",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.089043+00:00"
+    },
+    {
+      "hive": "HKLM",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+      "registry_view": "64-bit",
+      "entry_name": "msedge_cleanup_{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}",
+      "entry_value": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\157.0.4341.60\\Installer\\setup.exe\" --msedgewebview --delete-old-versions --system-level --verbose-logging --on-logon",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.089437+00:00"
+    },
+    {
+      "hive": "HKLM",
+      "registry_path": "Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+      "registry_view": "64-bit",
+      "entry_name": "msedge_cleanup_{C50565E9-CCCF-44B4-BA15-5AC5C6569197}",
+      "entry_value": "\"C:\\Program Files (x86)\\Microsoft\\Copilot\\Application\\158.0.4370.33\\Installer\\setup.exe\" --mscopilot --channel=stable --delete-old-versions --system-level --verbose-logging --on-logon",
+      "value_type": 1,
+      "collected_at_utc": "2026-11-21T18:10:20.089858+00:00"
+    }
+  ],
+  "startup_items": [
+    {
+      "scope": "current_user",
+      "startup_folder": "C:\\Users\\nourr\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "path": "C:\\Users\\nourr\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+      "name": "desktop.ini",
+      "is_directory": false,
+      "classification": "metadata_file",
+      "size_bytes": 174,
+      "modified_at_utc": "2026-09-13T02:16:13.725372+00:00",
+      "collected_at_utc": "2026-11-21T18:10:20.091492+00:00"
+    },
+    {
+      "scope": "all_users",
+      "startup_folder": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\CodeMeter Control Center.lnk",
+      "name": "CodeMeter Control Center.lnk",
+      "is_directory": false,
+      "classification": "shortcut_or_link",
+      "size_bytes": 2255,
+      "modified_at_utc": "2026-11-21T17:18:38.426439+00:00",
+      "collected_at_utc": "2026-11-21T18:10:20.091928+00:00"
+    },
+    {
+      "scope": "all_users",
+      "startup_folder": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+      "name": "desktop.ini",
+      "is_directory": false,
+      "classification": "metadata_file",
+      "size_bytes": 174,
+      "modified_at_utc": "2024-04-01T07:24:04.058762+00:00",
+      "collected_at_utc": "2026-11-21T18:10:20.092172+00:00"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Only the listed common Windows persistence locations are collected.",
+    "Collected entries are indicators, not proof of malicious activity.",
+    "Startup file classifications are based on file type and are not malware verdicts.",
+    "Some locations may require elevated permissions to read completely.",
+    "This is a point-in-time snapshot; system state may change after collection.",
+    "The 32-bit and 64-bit registry views may contain identical entries."
+  ]
+}
